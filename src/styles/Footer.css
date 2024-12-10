@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #213547;
+    color: #EEE;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #34474F;
+}
+
+.footer .footer-title {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #B0BEC5;
+}
+
+.footer .footer-logo {
+    width: 50px;
+    height: 50px;
+    transition: transform .3s ease;
+}
+
+.footer .footer-logo:hover {
+    transform: rotate(360deg)
+}

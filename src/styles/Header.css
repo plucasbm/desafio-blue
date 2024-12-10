@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    background-color: #213547;
+    color: #EEE;
+}
+
+.header .header-logo {
+    width: 60px;
+    height: 60px;
+    transition: transform .3s ease;
+}
+
+.header .header-logo:hover {
+    transform: rotate(360deg)
+}
+
+.header .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EEE;
+}
